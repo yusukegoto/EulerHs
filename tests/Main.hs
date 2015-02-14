@@ -1,6 +1,11 @@
 import Test.Framework (defaultMain)
 
 import MultiTest
+import EvenFiboTest
 
+main = defaultMain cases
 
-main = defaultMain MultiTest.tests
+cases = foldl1 (++) $
+         [ MultiTest.tests
+         , EvenFiboTest.tests
+         ]
