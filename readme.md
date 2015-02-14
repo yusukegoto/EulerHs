@@ -28,6 +28,10 @@ $ cabal build
 $ cabal repl
 > import EulerHs.Multiple
 > Multiple.sum 9
+...
+何かのファイルを編集
+> :r -- リロード
+
 ````
 
 ## テストの実行
