@@ -3,7 +3,10 @@ EulerHs
 
 [![Build Status](https://img.shields.io/travis/yusukegoto/EulerHs.svg?branch=master)](https://travis-ci.org/yusukegoto/EulerHs)
 
-HUnitベースの[Project Euler](https://projecteuler.net/problems)の解答をテストします.
+[Project Euler](https://projecteuler.net/problems)の解答をHUnitでテストします.
+
+- [Project Euler](https://projecteuler.net/problems)
+- [Project Euler 日本語](http://odz.sakura.ne.jp/projecteuler/)
 
 ## 準備
 
@@ -19,7 +22,7 @@ $ cabal build
 `EulerHs`をロードした状態でghciが立ち上がります.
 
 ````
-$ cabal repl EulerHs -- cabalファイルに書いてあるname
+$ cabal repl
 > import EulerHs.Multiple
 > Multiple.sum 9
 ````
@@ -28,4 +31,9 @@ $ cabal repl EulerHs -- cabalファイルに書いてあるname
 
 ````
 $ cabal test
+````
+
+テストのデバッグ
+````
+$ cabal repl HUnit -- cabalファイルに書いてあるsuite名
 ````
