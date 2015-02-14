@@ -12,11 +12,11 @@ import Test.HUnit
 
 import qualified EulerHs.Multiple as Multiple -- 実装対象
 
-expects9 = Multiple.sum' 9
+expects9 = Multiple.sum 9
 till9 = testCase "3または5の倍数の和" $
           assertEqual "9まで" expects9 23
 
-expects999 = Multiple.sum' 999
+expects999 = Multiple.sum 999
 till999 = testCase "3または5の倍数の和" $
             assertEqual "999まで" expects999 233168
 
