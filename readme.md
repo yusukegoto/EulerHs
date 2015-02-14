@@ -1,4 +1,7 @@
-# EulerHs
+EulerHs
+=======
+
+[![Build Status](https://img.shields.io/travis/yusukegoto/EulerHs.svg)](https://travis-ci.org/yusukegoto/EulerHs)
 
 HUnitベースの[Project Euler](https://projecteuler.net/problems)の解答をテストします.
 
