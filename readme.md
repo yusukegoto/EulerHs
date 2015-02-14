@@ -7,6 +7,9 @@ EulerHs
 
 - [Project Euler](https://projecteuler.net/problems)
 - [Project Euler 日本語](http://odz.sakura.ne.jp/projecteuler/)
+- [解答](https://github.com/nayuki/Project-Euler-solutions/blob/master/Answers.txt)
+
+解答はnayuki/Project-Euler-solutions
 
 ## 準備
 
